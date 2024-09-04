@@ -17,7 +17,7 @@ variable "tags" {
 variable "name" {
   description = "The name of the SNS topic to create"
   type        = string
-  default     = null
+  default     = "AZ-SNS-V1"
 }
 
 variable "use_name_prefix" {
@@ -53,7 +53,7 @@ variable "delivery_policy" {
 variable "display_name" {
   description = "The display name for the SNS topic"
   type        = string
-  default     = null
+  default     = "OTP-V1"
 }
 
 variable "fifo_topic" {
